@@ -1,10 +1,12 @@
-.container{
+.container, .logo, .body, .bodyRight{
     display: flex;
+}
+
+.container{
     flex-direction: column;
 }
 
 .logo{
-    display: flex;
     justify-self: flex-start;
 }
 
@@ -13,6 +15,7 @@
     flex-direction: row;
     align-items: center;
     border-bottom: solid #d9dbdf;
+    background-color: white;
 }
 
 .headingText{
@@ -23,12 +26,28 @@
 }
 
 p{
-    color: #6f6e6e;
+    color: #8b8b8b;
 }
 
-.body{
+body{
+    margin: 0;
     background-color: #f6f7f9 ;
 }
 
+.bodyRight{
+    justify-content: center;
+    padding-top: 1.5rem;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
 
+.bodyLeft{
+    width: 50%;
+}
+
+button{
+    width: 12.2rem;
+    height: 7.2rem;
+    border-radius: 5%;
+}
 
