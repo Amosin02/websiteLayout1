@@ -1,4 +1,4 @@
-.container, .logo, .body, .bodyRight{
+.container, .logo, .body, .bodyRight, button{
     display: flex;
 }
 
@@ -25,7 +25,7 @@
     margin-left: 30%;
 }
 
-p{
+span{
     color: #8b8b8b;
 }
 
@@ -46,9 +46,29 @@ body{
     width: 325px;
 }
 
-button{
+.imageButton{
+    display: flex;
+    width: 12.2rem;
+    height: 7.2rem;
+    border-radius: 5%;
+    text-align: left;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    color: white;
+    border: none;
+    position: relative;
+    cursor: pointer;
+}
+
+.bgPhoto{
     width: 12.2rem;
     height: 7.2rem;
     border-radius: 5%;
 }
 
+.textButton{
+    position: absolute;
+    align-self: flex-end;
+    margin: 0;
+    padding: .7rem;
+}
