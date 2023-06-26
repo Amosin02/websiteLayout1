@@ -39,10 +39,11 @@ body{
     padding-top: 1.5rem;
     gap: 2rem;
     flex-wrap: wrap;
+    width: 800px;
 }
 
 .bodyLeft{
-    width: 50%;
+    width: 325px;
 }
 
 button{
