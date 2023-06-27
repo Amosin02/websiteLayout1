@@ -72,3 +72,10 @@ body{
     margin: 0;
     padding: .7rem;
 }
+
+.currentPageSymbol{
+    color: rgb(184, 2, 2);
+    position: absolute;
+    margin: 0;
+    font-weight: bolder;
+}
